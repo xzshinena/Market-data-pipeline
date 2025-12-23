@@ -3,9 +3,9 @@ import pandas as pd
 from pathlib import Path
 from datetime import datetime
 
-from config import PROCESSED_DIR
+from config import processed_directory
 from src.pipeline.store import query_prices, query_metrics, query_comparison
-from src.analysis.compare import generate_comparison_report
+from src.analysis.compare import comparison_report
 
 
 def ensure_output_dir(output_dir: str) -> Path:
@@ -105,7 +105,7 @@ def export_comparison_report(
         print(f"No comparison data for report")
         return None
     
-    report = generate_comparison_report(df)
+    report = comparison_report(df)
     
     with open(filepath, "w") as f:
         f.write(report)
@@ -122,7 +122,7 @@ def export_all(
 ) -> dict:
 
     if output_dir is None:
-        output_dir = str(PROCESSED_DIR)
+        output_dir = str(processed_directory)
     
     print("\n" + "=" * 50)
     print("EXPORTING DATA")
@@ -192,7 +192,7 @@ def export_summary_stats(
         lines.append(f"  Products compared: {len(comparison_df)}")
         lines.append(f"  Average savings: {comparison_df['savings_pct'].mean():.1f}%")
         
-        lines.append(f"  Most competitive venue: {venue_wins.index[0]} ({venue_wins.iloc[0]} products)")
+        lines.append(f"  Most competitive venue: {winner.index[0]} ({winner.iloc[0]} products)")
         lines.append("")
     
     with open(filepath, "w") as f:

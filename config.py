@@ -11,21 +11,20 @@ db_path = project_root / "data" / "market_data.db"
 valid_currencies = {"CAD" , "RMB", "KRW" , "JPY" , "USD"}
 
 suppliers = {
-    "Sephora",
-    "YesStyle",
-    "Sukoshi Mart",
-    "Stylevana",
-    "Amazon",
-    "Olive Young",
-    "Kiokii &",
-    "Shoppers Drug Mart",
-    "Lamour",
-    "Oomomo",
-    "Axia Station",
-    "Shein",
-    "Cosme",
-    "Kiyoko Beauty",
-    "Komiko Beauty"
+    "sephora",
+    "yesstyle",
+    "sukoshi",
+    "stylevana",
+    "amazon",
+    "oliveyoung",
+    "kiokii",
+    "shoppers",
+    "lamour",
+    "oomomo",
+    "axiastation",
+    "cosme",
+    "kiyoko",
+    "komiko"
 }
 
 min_price = 0.01
@@ -34,9 +33,9 @@ max_price = 1000000
 rolling_window_days = 7
 
 required_columns = {
-    "product_name",
-    "supplier",
+    "timestamp",
+    "supplier",      
+    "product_id",    
     "price",
-    "currency",
-    "timestamp"
+    "currency"
 }

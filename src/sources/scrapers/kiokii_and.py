@@ -4,10 +4,9 @@ from datetime import datetime
 from time import sleep
 from src.sources.base import DataSource
 
-
-class AxiastationScraper(DataSource):
+class KiokiiScraper(DataSource):
     
-    BASE_URL = "https://axiastation.ca"
+    BASE_URL = "https://kiokii.com"
     
     def __init__(self, search_terms: list[str] = None, limit: int = 250):
         self.search_terms = search_terms
@@ -18,7 +17,7 @@ class AxiastationScraper(DataSource):
     
     @property
     def name(self) -> str:
-        return "axiastation_scraper"
+        return "kiokii_scraper"
     
     def fetch(self) -> pd.DataFrame:
         if self.search_terms:
@@ -106,10 +105,10 @@ class AxiastationScraper(DataSource):
             
             records.append({
                 "timestamp": timestamp,
-                "supplier": "axiastation",
+                "supplier": "kiokii",
                 "product_id": f"{product.get('handle', '')}",
                 "price": float(main_variant.get("price", 0)),
-                "currency": "CAD"
+                "currency": "CAD",
             })
         
         return pd.DataFrame(records)

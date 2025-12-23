@@ -17,7 +17,7 @@ def timestamp_check(df : pd.DataFrame) -> pd.Series :
 
 # has all the required fields
 def required_field_check(df : pd.DataFrame) -> pd.Series :
-    return df[required_columns].notna().all(axis = 1)
+    return df[list(required_columns)].notna().all(axis = 1)
 
 # valid currency
 def currency_check(df : pd.DataFrame) -> pd.Series :
@@ -42,7 +42,7 @@ def time_in_bounds(df : pd.DataFrame, start_date : str, end_date : str) -> pd.Se
 def supplier_check(df : pd.DataFrame) -> pd.Series :
     return df["supplier"].isin(suppliers)
 
-def run_quality_checks( df : pd.DataFrame, start_date: str = None, end_date: str = None) -> tuple[pd.DataFrmae, pd.DataFrame]
+def run_quality_checks( df : pd.DataFrame, start_date: str = None, end_date: str = None) -> tuple[pd.DataFrame, pd.DataFrame] :
     # returns [valid, rejected]
     df = df.copy()
     df["rejected_reason"] = ""

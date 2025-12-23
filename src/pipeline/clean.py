@@ -45,7 +45,7 @@ def handle_missing_values(df : pd.DataFrame) -> pd.DataFrame :
     num_rows_before = len(df)
 
     #drop columns w/o required columns
-    df = df.dropna(subset = required_columns)
+    df = df.dropna(subset = list(required_columns))
 
     #fill optional columns 
     if "category" in df.columns :
@@ -55,7 +55,7 @@ def handle_missing_values(df : pd.DataFrame) -> pd.DataFrame :
     if num_rows_dropped > 0 :
         print(f"Dropped {num_rows_dropped} rows with missing required fields.")
     else :
-        print(f"All rows had missing required fields.")
+        print(f"No dropped rows")
 
     return df
 

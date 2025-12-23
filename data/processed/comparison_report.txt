@@ -1,0 +1,83 @@
+============================================================
+price comparison report
+  for 2025-12-23 18:21
+============================================================
+
+PRODUCTS
+----------------------------------------
+
+ CANMAKE-PERFECT-MULTI-EYES-308296:
+     cheapest : oomomo @ $15.00
+    (Only available at 1 venue)
+
+ CANMAKE-PETIT-PALETTE-EYES-317472:
+     cheapest : oomomo @ $20.00
+    (Only available at 1 venue)
+
+ DASIQUE-JUICY-DEWY-TINT-532588:
+     cheapest : oomomo @ $20.00
+    (Only available at 1 venue)
+
+ DASIQUE-MELTING-CANDY-BALM-535053:
+     cheapest : oomomo @ $12.25
+    (Only available at 1 venue)
+
+ DASIQUE-SHADOW-PALETTE-530638:
+     cheapest : oomomo @ $27.75
+    (Only available at 1 venue)
+
+ MY-TEEN-ROMANTIC-COMEDY-SNAFU-CLIMAX-HACHIMAN-HIKIGAYA-NENDOROID-FIGURE-127609:
+     cheapest : oomomo @ $79.00
+    (Only available at 1 venue)
+
+ ROM-ND-BARE-WATER-CUSHION-20G:
+     cheapest : kiyoko @ $26.00
+    (Only available at 1 venue)
+
+ ROM-ND-BARE-WATER-TINT-4-5G:
+     cheapest : kiyoko @ $9.99
+    (Only available at 1 venue)
+
+ ROM-ND-GLASTING-COLOR-GLOSS-4G:
+     cheapest : kiyoko @ $13.00
+    (Only available at 1 venue)
+
+ ROM-ND-GLASTING-MELTING-BALM-3-5G-1:
+     cheapest : kiyoko @ $9.99
+    (Only available at 1 venue)
+
+ ROM-ND-GLASTING-WATER-TINT-4G-1:
+     cheapest : kiyoko @ $9.99
+    (Only available at 1 venue)
+
+ ROM-ND-JUICY-LASTING-TINT-5-5G:
+     cheapest : kiyoko @ $9.99
+    (Only available at 1 venue)
+
+ ROM-ND-JUICY-ROLL-CHEEK-8-4G:
+     cheapest : kiyoko @ $15.00
+    (Only available at 1 venue)
+
+ ROM-ND-LIP-MATE-PENCIL-0-5G:
+     cheapest : kiyoko @ $9.99
+    (Only available at 1 venue)
+
+ ROM-ND-THE-JUICY-LASTING-TINT-3-5G-1:
+     cheapest : kiyoko @ $9.99
+    (Only available at 1 venue)
+
+ ROM-ND-ZERO-MATTE-LIPSTICK-3G-1:
+     cheapest : kiyoko @ $9.99
+    (Only available at 1 venue)
+
+============================================================
+    summary
+============================================================
+  products compared: 16
+  average savings available: 0.0%
+  best deal: CANMAKE-PERFECT-MULTI-EYES-308296 at oomomo
+             save 0.0% ($0.00)
+
+  Cheapest venue by product count:
+    kiyoko: 10 products
+    oomomo: 6 products

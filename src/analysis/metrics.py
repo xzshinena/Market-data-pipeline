@@ -50,15 +50,17 @@ def volatility(df: pd.DataFrame, window: int = None) -> pd.DataFrame :
     df["volatility_7d"] = df.groupby(["supplier", "product_id"])["daily_return"].transform(
         lambda x : x.rolling(window = window, min_periods = 2).std()
     )
+    return df
 
 def all_metrics(df: pd.DataFrame) -> pd.DataFrame :
     if df.empty :
         return pd.DataFrame() #empty df
     
-    metrics_df = ohlc(df)
-    metrics_df = daily_return(df)
-    metrics_df = rolling_avg(df)
-    metrics_df = volatility(df)
+    metrics_df = volatility(rolling_avg(daily_return(ohlc(df))))
+    #metrics_df = ohlc(df)
+    #metrics_df = daily_return(df)
+    #metrics_df = rolling_avg(df)
+    #metrics_df = volatility(df)
 
     return metrics_df
 

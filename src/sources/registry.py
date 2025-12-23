@@ -2,7 +2,7 @@ import pandas as pd
 from src.sources.base import DataSource
 
 class SourceRegistry :
-    def _init_(self):
+    def __init__(self):
         self.sources : list[DataSource] = []
     
     # register the datasource to the registry

@@ -24,17 +24,33 @@ from src.analysis.compare import find_cheapest, comparison_report
 
 from src.export import export_all
 
-def setup_sources(source_names : list[str]) -> SourceRegistry :
+def setup_sources(source_names : list[str], search_term: str = None) -> SourceRegistry :
     registry = SourceRegistry()
 
     if "csv" in source_names :
         registry.register(CSVDirectorySource(str(raw_directory)))
+    
+    if "axiastation" in source_names : 
+        from src.sources.scrapers.axiastation import AxiastationScraper
+        registry.register(AxiastationScraper(search_terms=[search_term] if search_term else None))
+    
+    if "kiokii" in source_names : 
+        from src.sources.scrapers.kiokii_and import KiokiiScraper
+        registry.register(KiokiiScraper(search_terms=[search_term] if search_term else None))
+    
+    if "kiyoko" in source_names : 
+        from src.sources.scrapers.kiyoko import KiyokoScraper
+        registry.register(KiyokoScraper(search_terms=[search_term] if search_term else None))
+
+    if "oomomo" in source_names : 
+        from src.sources.scrapers.oomomo import OomomoScraper
+        registry.register(OomomoScraper(search_terms=[search_term] if search_term else None))
 
     return registry
 
 def pipeline(args) :
     #1. ingest
-    registry = setup_sources(args.sources)
+    registry = setup_sources(args.sources, args.search)
 
     if not registry.sources : 
         print("no sources configured")
@@ -110,6 +126,27 @@ def main() :
     parser.add_argument(
         "--end",
         required = True
+    )
+
+    parser.add_argument(
+        "--compare",
+        action = "store_true"
+    )
+
+    parser.add_argument(
+        "--sources",
+        nargs = "+",
+        default = ["csv"]
+    )
+
+    parser.add_argument(
+        "--skip-metrics",
+        action = "store_true"
+    )
+
+    parser.add_argument(
+        "--search",
+        default = None,
     )
 
     args = parser.parse_args()
