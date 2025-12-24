@@ -46,6 +46,26 @@ def setup_sources(source_names : list[str], search_term: str = None) -> SourceRe
         from src.sources.scrapers.oomomo import OomomoScraper
         registry.register(OomomoScraper(search_terms=[search_term] if search_term else None))
 
+    if "sukoshi" in source_names : 
+        from src.sources.scrapers.sukoshi import SukoshiScraper
+        registry.register(SukoshiScraper(search_terms=[search_term] if search_term else None))
+
+    if "stylevana" in source_names : 
+        from src.sources.scrapers.stylevana import StylevanaScraper
+        registry.register(StylevanaScraper(search_terms=[search_term] if search_term else None))
+
+    if "oliveyoung" in source_names : 
+        from src.sources.scrapers.oliveyoung import OliveYoungScraper
+        registry.register(OliveYoungScraper(search_terms=[search_term] if search_term else None))
+
+    if "lamour" in source_names : 
+        from src.sources.scrapers.lamour import LamourScraper
+        registry.register(LamourScraper(search_terms=[search_term] if search_term else None))
+
+    if "komiko" in source_names : 
+        from src.sources.scrapers.komiko import KomikoScraper
+        registry.register(KomikoScraper(search_terms=[search_term] if search_term else None))
+
     return registry
 
 def pipeline(args) :

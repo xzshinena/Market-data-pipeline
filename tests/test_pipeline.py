@@ -7,6 +7,10 @@ from src.sources.scrapers.oomomo import OomomoScraper
 from src.sources.scrapers.axiastation import AxiastationScraper
 from src.sources.scrapers.kiyoko import KiyokoScraper
 from src.sources.scrapers.kiokii_and import KiokiiScraper
+from src.sources.scrapers.kiokii_and import KiokiiScraper
+from src.sources.scrapers.oliveyoung import OliveYoungScraper
+from src.sources.scrapers.lamour import LamourScraper
+from src.sources.scrapers.komiko import KomikoScraper
 
 search_term = "aestura atobarrier 365 cream"
 
@@ -15,6 +19,9 @@ registry.register(OomomoScraper(search_terms=[search_term]))
 registry.register(AxiastationScraper(search_terms=[search_term]))
 registry.register(KiyokoScraper(search_terms=[search_term]))
 registry.register(KiokiiScraper(search_terms=[search_term]))
+registry.register(OliveYoungScraper(search_terms=[search_term]))
+registry.register(LamourScraper(search_terms=[search_term]))
+registry.register(KomikoScraper(search_terms=[search_term]))
 
 df = registry.fetch_all()
 print(df)

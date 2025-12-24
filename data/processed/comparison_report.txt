@@ -1,83 +1,93 @@
 ============================================================
 price comparison report
-  for 2025-12-23 18:21
+  for 2025-12-23 23:55
 ============================================================
 
 PRODUCTS
 ----------------------------------------
 
- CANMAKE-PERFECT-MULTI-EYES-308296:
-     cheapest : oomomo @ $15.00
-    (Only available at 1 venue)
+ AESTURA-ATOBARRIER-365-BODY-CREAM-250ML:
+     cheapest : oliveyoung @ $48.28
+    (Only available from 1 supplier)
 
- CANMAKE-PETIT-PALETTE-EYES-317472:
-     cheapest : oomomo @ $20.00
-    (Only available at 1 venue)
+ AESTURA-ATOBARRIER-365-BODY-LOTION-400ML:
+     cheapest : oliveyoung @ $53.00
+    (Only available from 1 supplier)
 
- DASIQUE-JUICY-DEWY-TINT-532588:
-     cheapest : oomomo @ $20.00
-    (Only available at 1 venue)
+ AESTURA-ATOBARRIER-365-CREAM:
+     cheapest : axiastation @ $47.99
+    (Only available from 1 supplier)
 
- DASIQUE-MELTING-CANDY-BALM-535053:
-     cheapest : oomomo @ $12.25
-    (Only available at 1 venue)
+ AESTURA-ATOBARRIER-365-CREAM-2-SIZES:
+     cheapest : kiokii @ $51.99
+    (Only available from 1 supplier)
 
- DASIQUE-SHADOW-PALETTE-530638:
-     cheapest : oomomo @ $27.75
-    (Only available at 1 venue)
+ AESTURA-ATOBARRIER-365-CREAM-80ML:
+     cheapest : komiko @ $26.79
+    Most expensive: oliveyoung @ $49.99
+    Save $23.20 (46.4%)
 
- MY-TEEN-ROMANTIC-COMEDY-SNAFU-CLIMAX-HACHIMAN-HIKIGAYA-NENDOROID-FIGURE-127609:
-     cheapest : oomomo @ $79.00
-    (Only available at 1 venue)
+ AESTURA-ATOBARRIER-365-CREAM-80ML-RENEWED:
+     cheapest : kiyoko @ $37.99
+    (Only available from 1 supplier)
 
- ROM-ND-BARE-WATER-CUSHION-20G:
-     cheapest : kiyoko @ $26.00
-    (Only available at 1 venue)
+ AESTURA-ATOBARRIER-365-CREAM-MIST-120ML:
+     cheapest : komiko @ $13.93
+    Most expensive: lamour @ $28.99
+    Save $15.06 (52.0%)
 
- ROM-ND-BARE-WATER-TINT-4-5G:
-     cheapest : kiyoko @ $9.99
-    (Only available at 1 venue)
+ AESTURA-ATOBARRIER-365-CREAM-PLUS-90ML:
+     cheapest : komiko @ $25.72
+    (Only available from 1 supplier)
 
- ROM-ND-GLASTING-COLOR-GLOSS-4G:
-     cheapest : kiyoko @ $13.00
-    (Only available at 1 venue)
+ AESTURA-ATOBARRIER-365-CREAM-PLUS-90ML-1:
+     cheapest : komiko @ $25.72
+    (Only available from 1 supplier)
 
- ROM-ND-GLASTING-MELTING-BALM-3-5G-1:
-     cheapest : kiyoko @ $9.99
-    (Only available at 1 venue)
+ AESTURA-ATOBARRIER-365-HYDRO-ESSENCE-200ML:
+     cheapest : oliveyoung @ $47.72
+    (Only available from 1 supplier)
 
- ROM-ND-GLASTING-WATER-TINT-4G-1:
-     cheapest : kiyoko @ $9.99
-    (Only available at 1 venue)
+ AESTURA-ATOBARRIER-365-HYDRO-SOOTHING-CREAM:
+     cheapest : oliveyoung @ $49.99
+    (Only available from 1 supplier)
 
- ROM-ND-JUICY-LASTING-TINT-5-5G:
-     cheapest : kiyoko @ $9.99
-    (Only available at 1 venue)
+ AESTURA-ATOBARRIER-365-HYDRO-SOOTHING-CREAM-60ML:
+     cheapest : komiko @ $24.64
+    Most expensive: axiastation @ $47.99
+    Save $23.35 (48.7%)
 
- ROM-ND-JUICY-ROLL-CHEEK-8-4G:
-     cheapest : kiyoko @ $15.00
-    (Only available at 1 venue)
+ AESTURA-ATOBARRIER-365-HYDRO-SOOTHING-CREAM-60ML-COPY:
+     cheapest : kiokii @ $55.99
+    (Only available from 1 supplier)
 
- ROM-ND-LIP-MATE-PENCIL-0-5G:
-     cheapest : kiyoko @ $9.99
-    (Only available at 1 venue)
+ AESTURA-ATOBARRIER-365-LOTION-150ML:
+     cheapest : oliveyoung @ $46.86
+    (Only available from 1 supplier)
 
- ROM-ND-THE-JUICY-LASTING-TINT-3-5G-1:
-     cheapest : kiyoko @ $9.99
-    (Only available at 1 venue)
+ AESTURA-ATOBARRIER-365-LOTION-150ML-SPECIAL-SET-+HYDRO-ESSENCE-25ML-+-CERA-HYAL-MOISTURE-AMPOULE-7ML:
+     cheapest : oliveyoung @ $46.86
+    (Only available from 1 supplier)
 
- ROM-ND-ZERO-MATTE-LIPSTICK-3G-1:
-     cheapest : kiyoko @ $9.99
-    (Only available at 1 venue)
+ AESTURA-ATOBARRIER-365-LOTION-2-SIZES:
+     cheapest : kiokii @ $53.99
+    (Only available from 1 supplier)
+
+ ★2025-AWARDS★-AESTURA-ATOBARRIER-365-CREAM-80ML-LIMITED-SET-+30ML+CERA-HYAL-AMPOULE-3ML:
+     cheapest : oliveyoung @ $44.31
+    (Only available from 1 supplier)
 
 ============================================================
     summary
 ============================================================
-  products compared: 16
-  average savings available: 0.0%
-  best deal: CANMAKE-PERFECT-MULTI-EYES-308296 at oomomo
+  products compared: 17
+  average savings available: 8.6%
+  best deal: AESTURA-ATOBARRIER-365-BODY-CREAM-250ML at oliveyoung
              save 0.0% ($0.00)
 
   Cheapest venue by product count:
-    kiyoko: 10 products
-    oomomo: 6 products
+    oliveyoung: 7 products
+    komiko: 5 products
+    kiokii: 3 products
+    axiastation: 1 products
+    kiyoko: 1 products

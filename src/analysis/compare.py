@@ -59,10 +59,10 @@ def comparison_report(comparison_df : pd.DataFrame) -> str :
             lines.append(f"     cheapest : {row['cheapest_supplier']} @ ${row['cheapest_price']:.2f}")
 
             if row["num_suppliers"] > 1 :
-                lines.append(f"    ✗ Most expensive: {row['most_expensive_supplier']} @ ${row['most_expensive_price']:.2f}")
-                lines.append(f"    💰 Save ${row['price_spread']:.2f} ({row['savings_pct']:.1f}%)")
+                lines.append(f"    Most expensive: {row['most_expensive_supplier']} @ ${row['most_expensive_price']:.2f}")
+                lines.append(f"    Save ${row['price_spread']:.2f} ({row['savings_pct']:.1f}%)")
             else:
-                lines.append(f"    (Only available at 1 venue)")
+                lines.append(f"    (Only available from 1 supplier)")
             
         lines.append("")
     
@@ -108,4 +108,3 @@ def historicaal_comparison(df : pd.DataFrame, product_id : str) -> pd.DataFrame 
     pivot["cheapest_price"] = pivot.min(axis=1)
 
     return pivot
-    
